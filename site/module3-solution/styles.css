@@ -65,11 +65,9 @@ body {
 	text-align: center;
 }
 .container .jumbotron {
-	text-align: center;
 	box-shadow: 0 0 50px #DCB239;
 	border: 2px solid #DCB239;
 	background-color: #DCB239;
-	height: 1000px;
 	padding-top: 0;
 	color: #000;
 }
@@ -82,7 +80,9 @@ body {
 
 /** MEDIUM DEVICES ONLY **/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+	.contianer .jumbotron {
+		overflow: scroll;
+	}
 }
 
 /** SMALL DEVICES ONLY **/
